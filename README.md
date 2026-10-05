@@ -29,6 +29,27 @@ SOAL NO 8.Ubahkan kepemilikan sub direktori februari sehingga user dan group han
 
 SOAL NO 9.Modifikasi umask dari file dataku pada sub direktori januari menjadi 027 dan berapakan nilai default-nya ? 
 <img width="1920" height="1080" alt="no 9" src="https://github.com/user-attachments/assets/922718b2-c9ed-4042-bc01-d2abd9538e44" />
+Nilai default file
+
+Perhitungannya:
+
+666
+-027
+----
+641
+
+Jadi nilai default file = 641 atau:
+
+rw-r----x
+
+Untuk direktori:
+
+777
+-027
+----
+750
+
+Jadi nilai default direktori = 750.
 
 SOAL NO 10.Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah list perhatikan berapa link yang terjadi ? 
 <img width="1920" height="1080" alt="no 10" src="https://github.com/user-attachments/assets/3c3d60f0-8417-4aad-bbf6-b45033a52b99" />
